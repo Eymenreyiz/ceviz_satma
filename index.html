@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceviz En İyi Cevizler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Doğal ceviz ve badem</div>
+            <ul>
+                <li><a href="#home">Ana sayfa</a></li>
+                <li><a href="#products">satın alma</a></li>
+                <li><a href="#about">açıklama</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Doğal cevizler</h1>
+            <p>Organik Cevizler</p>
+            <button onclick="scrollToProducts()">alişveriş yap</button>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="badem.jpg" alt="badem">
+                    <h3>badem</h3>
+                    <p>kilosu 50 tl</p>
+                    <button onclick="addToCart('badem')">Sepete ekle</button>
+                </div>
+                <div class="product-card">
+                    <img src="roasted-walnuts.jpg" alt="cevizler">
+                    <h3>Organik cevizler</h3>
+                    <p>Kilosu 100 TL</p>
+                    <button onclick="addToCart('cevizler')">Sepete Ekle</button>
+                </div>
+                <div class="product-card">
+                    <img src="organic-walnuts.jpg" alt="Hünnap">
+                    <h3>Hünnap</h3>
+                    <p>Kilosu 70 TL</p>
+                    <button onclick="addToCart('Hünnap')">Sepete Ekle</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Usta Cevizcilik.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
